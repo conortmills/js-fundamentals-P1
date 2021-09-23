@@ -7,7 +7,7 @@ function exercise3() {
   //
   // Edit only the code between the lines (below)
   // -----------------------------------------------------------------
-  for (let number = 2; number < 7; number++) {
+  for (let number = 1; number < 6; number++) {
     console.log(number);
   }
   // -----------------------------------------------------------------
@@ -17,7 +17,7 @@ function exercise3() {
   //
   //
   //
-  //
+  //yarn test exercise-
 }
 
 // Once you are done type the following in the terminal to test your answer(s).

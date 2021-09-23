@@ -15,6 +15,21 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  
+
+  for (num=2; num <200; num++) {
+    for(let i = 2; i < num; i++){
+        if(num % i === 0) { 
+          let check = false;
+          return check;
+        }
+      }
+
+    if( check !== false || num === 2){
+      console.log(num)
+    }
+  }
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

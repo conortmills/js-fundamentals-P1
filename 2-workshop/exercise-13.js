@@ -20,6 +20,29 @@ function exercise13() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+    let a = 0
+    let b = 1
+    let sum = 0
+    let answer = 0
+
+    for(i= 1; i<=50; i++) {
+
+      sum= a + b
+      
+      answer = sum
+      a = b
+      b = sum
+
+
+      console.log(answer)
+
+      
+    }
+
+    
+
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
